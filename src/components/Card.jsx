@@ -4,7 +4,7 @@ const Card = () => {
   return (
     <div className="card_design">
       <div className="img-dev">
-        <img src="./src/assets/cardImg.jpg" alt="cardimg" />
+        <img src="./assets/cardImg.jpg" alt="cardimg" />
       </div>
 
       <div className="content-data">
@@ -14,7 +14,7 @@ const Card = () => {
         </div>
         <div className="content-desc">
           <p>
-            Curated vibrats colors for your living, make it pop & calm in the
+            Curated vibrant colors for your living, make it pop & calm in the
             same time.
           </p>
         </div>
