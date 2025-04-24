@@ -1,10 +1,11 @@
 import React from "react";
 import "./card.css";
+import cardImg from "..assets/cardImg.jpg"
 const Card = () => {
   return (
     <div className="card_design">
       <div className="img-dev">
-        <img src="./assets/cardImg.jpg" alt="cardimg" />
+        <img src={cardImg} alt="cardimg" />
       </div>
 
       <div className="content-data">
