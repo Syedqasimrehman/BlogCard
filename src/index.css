@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer components {
+  * {
+    font-family: sans-serif;
+  }
+  .card_design {
+    width: 400px;
+    height: 550px;
+    border-radius: 1rem;
+    box-shadow: -3px 0px 34px -5px rgba(0, 0, 0, 0.83);
+    -webkit-box-shadow: -3px 0px 34px -5px rgba(0, 0, 0, 0.83);
+    -moz-box-shadow: -3px 0px 34px -5px rgba(0, 0, 0, 0.83);
+    padding: 1rem;
+  }
+  .card {
+    text-align: center;
+    height: 100%;
+  }
+
+  .social_style {
+    display: inline-block;
+    /* flex-direction: row; */
+    justify-content: center;
+    color: #4338ca;
+    font-size: 25px;
+    list-style: none;
+    align-items: center;
+    padding: 15px;
+  }
+
+}
